@@ -1,0 +1,191 @@
+
+ .open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:60px
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.dark{
+     color:black;
+}
+
+.btn{
+    background-color: rgb(237, 229, 9);
+    color: rgb(19, 16, 221);
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+    margin: 30px;
+}
+
+.banner-pic{
+    width: 580px;
+}
+
+.header{
+    background-image: url(pix.jpg);
+    background-repeat: no-repeat;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: rgb(18, 16, 12);
+}
+
+main{
+ max-width: 1140px;
+ margin:0 auto;
+
+}
+.about{
+    border-radius: 10px;
+    padding:70px 150px;
+    text-align: center;
+    margin-top: 130px;
+    box-shadow: 0 20px 20px 0px#181818;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.secondary-bg{
+    background: #35ecec;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+
+
+.item-description{
+    font-size:large;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.skill{
+    width:250px;
+    box-shadow: 0 6px 50px 0  black;
+    text-align: center;
+    border-radius: 50px 0;
+}
+
+body{
+    background-color: rgb(193, 251, 251);
+}
+
+main section{
+    margin: 130px 0;
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 100px;
+    background-color: azure;
+}
+
+.resume-column{
+    border:4px solid #181818;
+     align-items: center;
+     box-shadow: 0 4px 50px 0 black;
+     max-width: 1440px;
+     padding: 30px;
+     border-radius: 20px 0;
+
+}
+
+.section-title{
+   text-align: center;
+  
+}
+
+.experience{
+    padding: 10px;
+}
+
+.resume{
+    padding: 10px;
+  
+}
+.btnp{
+    margin: 50px;
+}
+
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+
+}
+
+footer input[type="text"],footer input[type="email"]{
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+
+.footer-column{
+    width:50%
+}
