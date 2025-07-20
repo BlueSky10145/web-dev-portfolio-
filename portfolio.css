@@ -110,7 +110,7 @@ main{
     gap: 24px;
 }
 
-items:hover{
+.items:hover{
  color:green;}
 
 .item-description{
