@@ -110,7 +110,8 @@ main{
     gap: 24px;
 }
 
-
+items:hover{
+ color:green;}
 
 .item-description{
     font-size:large;
